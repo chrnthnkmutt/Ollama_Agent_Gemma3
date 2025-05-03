@@ -28,11 +28,11 @@ async def main():
     # Initialize the Assistant Agent with the client
     agent = AssistantAgent(
         name="vision_agent",
-        llm_config={"model_client": client}
+        model_client=client  # Replace 'llm_config' with 'model_client'
     )
 
     # Fetch an image from the web
-    image_url = "GettyImages.jpg"
+    image_url = "https://media.formula1.com/image/upload/f_auto,c_limit,q_auto,w_1320/content/dam/fom-website/drivers/2025Drivers/hamilton"
     response = requests.get(image_url)
     pil_image = PILImage.open(BytesIO(response.content))
 
