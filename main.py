@@ -32,7 +32,7 @@ async def main():
     )
 
     # Fetch an image from the web
-    image_url = "https://picsum.photos/300/200"
+    image_url = "GettyImages.jpg"
     response = requests.get(image_url)
     pil_image = PILImage.open(BytesIO(response.content))
 
