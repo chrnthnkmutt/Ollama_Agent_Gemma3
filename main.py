@@ -4,7 +4,7 @@ import asyncio
 import aiohttp
 from typing import List, Optional, Union, Literal
 
-from pydantic import BaseModel, Field
+from pydantic_ai import BaseModel, BaseConfig, Field
 
 
 # Define Pydantic models for data validation
@@ -17,7 +17,7 @@ class ModelInfo(BaseModel):
     structured_output: bool = False
 
 
-class OllamaConfig(BaseModel):
+class OllamaConfig(BaseConfig):
     """Configuration for Ollama API"""
     model: str
     base_url: str = "http://localhost:11434/v1"
