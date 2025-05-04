@@ -1,8 +1,8 @@
-# Ollama Agent Gemma3
+# Ollama Agent with Gemma3 and Pydantic
 
 ## Project Description
 
-Ollama Agent Gemma3 is a project designed to process images using Ollama's API. The main functionality of the project is to analyze and describe the content of images by sending them to the Ollama API and receiving a response. This project leverages the capabilities of the Ollama model to provide detailed descriptions of images.
+Ollama Agent with Gemma3 and Pydantic is a project designed to process images using Ollama's API. The main functionality of the project is to analyze and describe the content of images by sending them to the Ollama API and receiving a response. This project leverages the capabilities of the Ollama model to provide detailed descriptions of images.
 
 ## Purpose
 
