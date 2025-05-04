@@ -1,1 +1,1 @@
-# Ollama Autogen Gemma
+# Ollama Agent Gemma3
